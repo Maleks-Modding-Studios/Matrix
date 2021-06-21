@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "version": "${version}",
-  "id": "matrix-test",
-  "name": "Matrix Test",
+  "id": "tensor-test",
+  "name": "Tensor Test",
   "description": "Testmod",
   "entrypoints": {
     "main": [
-      "org.dimdev.matrix.test.Test"
+      "malek.tensor.test.Test"
     ]
   }
 }

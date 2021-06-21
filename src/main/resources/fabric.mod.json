@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "${version}",
-  "id": "matrix",
-  "name": "Matrix",
-  "description": "Annotation based registration library"
+  "id": "tensor",
+  "name": "Tensor",
+  "description": "Annotation based registration and datagen library"
 }

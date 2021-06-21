@@ -1,7 +1,7 @@
-package org.dimdev.matrix.test;
+package malek.tensor.test;
 
-import org.dimdev.matrix.Registrar;
-import org.dimdev.matrix.RegistryEntry;
+import malek.tensor.Registrar;
+import malek.tensor.RegistryEntry;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

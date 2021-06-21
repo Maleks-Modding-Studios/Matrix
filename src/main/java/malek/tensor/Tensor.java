@@ -1,4 +1,4 @@
-package org.dimdev.matrix;
+package malek.tensor;
 
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
@@ -9,9 +9,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 /**
- * An Annotation Based Registration Library.
+ * An Annotation Based Registration and Datagen Library.
  *
- * <p>Matrix allows registering items, blocks, etc. without
+ * <p>Tensor allows registering items, blocks, etc. without
  * calling {@code Registry.register(...)} a bunch of times or
  * registering at static init. Registering at static init
  * is not safe as you might just register the entries much
@@ -21,7 +21,8 @@ import net.minecraft.util.registry.Registry;
  * You no longer have to worry about skipping a call to
  * {@code Registry.register(...)}.</p>
  */
-public class Matrix {
+// TODO talk about the datagen features... when they're implemented.
+public class Tensor {
 	/**
 	 *
 	 * @param clazz The class that should be scanned for registry entries.

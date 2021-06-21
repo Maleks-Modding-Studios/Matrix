@@ -1,4 +1,4 @@
-package org.dimdev.matrix;
+package malek.tensor;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
